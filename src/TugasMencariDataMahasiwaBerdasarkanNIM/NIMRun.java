@@ -6,10 +6,10 @@ public class NIMRun {
 
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-        System.out.println("Nama Mahasiswa     :"); 
+        System.out.print("Nama Mahasiswa     :"); 
         String nama = input.nextLine();
         
-        System.out.println("NIM                :"); 
+        System.out.print("NIM                :"); 
         String nim = input.nextLine();
         NIM Nim = new NIM(); 
         Nim.setNim(nim); 

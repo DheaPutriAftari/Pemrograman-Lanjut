@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="guiTable.tabelSorting">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="8" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="50" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="803" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-5409829"/>
+      <font name="Comic Sans MS" size="12" style="2"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="b179f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="20" style="1"/>
+          <text value="Tabel Sorting Angka"/>
+        </properties>
+      </component>
+      <vspacer id="89c3f">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="3a2dd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16"/>
+          <text value="Masukkan jumlah angka"/>
+        </properties>
+      </component>
+      <component id="6c73d" class="javax.swing.JTextField" binding="textJumlahAngka">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="367" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="39b69" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16"/>
+          <text value="Masukkan angka"/>
+        </properties>
+      </component>
+      <component id="25c0" class="javax.swing.JTextField" binding="textAngka">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="367" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16"/>
+        </properties>
+      </component>
+      <component id="d64e7" class="javax.swing.JButton" binding="buttonSave">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16"/>
+          <text value="Cek"/>
+        </properties>
+      </component>
+      <component id="78875" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16"/>
+          <text value="Hasil sorting angka :"/>
+        </properties>
+      </component>
+      <component id="26e43" class="javax.swing.JButton" binding="buttonSimpan">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16"/>
+          <text value="Simpan"/>
+        </properties>
+      </component>
+      <component id="7445a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="16" style="2"/>
+          <text value="Masukkan angka yang ingin di sorting dengan menggunakan tanda &quot;,&quot;"/>
+        </properties>
+      </component>
+      <scrollpane id="9bf8c">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="14"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d87cf" class="javax.swing.JTable" binding="tableSorting">
+            <constraints/>
+            <properties>
+              <autoCreateRowSorter value="false"/>
+              <font/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
